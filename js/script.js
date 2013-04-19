@@ -16,3 +16,8 @@ printWindowWidthInfo();
 $(window).resize(function() {
     printWindowWidthInfo();
 });
+
+$('.toggle').click(function(){
+    $('.content').toggle();
+    printWindowWidthInfo();
+});
